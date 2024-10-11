@@ -1,0 +1,92 @@
+/* Background gradient */
+body {
+    background: linear-gradient(180deg, #2C3A47 0%, #1E2B36 50%, #131D26 100%);
+    color: #FDF6E3;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header, footer, nav {
+    background-color: #131D26;
+    color: #FDF6E3;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    padding: 60px 20px;
+    text-align: center;
+    background: transparent;
+  }
+  
+  button {
+    background-color: #A0522D;
+    color: #FDF6E3;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #808F5A;
+    transform: scale(1.05);
+  }
+  
+  h1, h2 {
+    color: #FDF6E3;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  a {
+    color: #ff6f00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input, textarea, select {
+    background-color: #F4EDE4;
+    border: 1px solid #A0522D;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #808F5A;
+  }
+  
+  #contact {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact a {
+    color: #FF6600;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-media a {
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
