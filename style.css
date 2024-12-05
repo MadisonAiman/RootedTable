@@ -8,14 +8,80 @@ body {
     line-height: 1.6;
   }
   
+
+
   header, footer, nav {
     background-color: #131D26;
     color: #FDF6E3;
+    font-weight: 400;
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
+/* Mission Section */
+#mission {
+  background-image: url('FARMTABLE IMAGE.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 450px; /* Adjust height as needed */
+   color: #fff;
+  padding: 40px;
+  text-align: center;
+  
+} 
+
+
+/* Menu Section */
+#menu ul {
+  height: 200px;
+  list-style-type: none;
+}
+
+/* Community Section */
+#community {
+  height: 350px;
+}
+
+
+/* Wine Section */
+#wine {
+  background-image: url('barrel.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 325px;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+
+}
+
+/* Community Section */
+
+
+/* Hosting section */
+#hosting {
+  background-image: url('wineindex.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 325px;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Contact Section */
+#contact {
+  background-image: url('wine-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: #fff ;
+  padding: 40px;
+  text-align: center;
+}
+
+
   section {
     padding: 60px 20px;
     text-align: center;
@@ -31,15 +97,41 @@ body {
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
+    align-self: center;
   }
+
   
   button:hover {
     background-color: #808F5A;
     transform: scale(1.05);
   }
+
+  /* Style and Center the Back to Top Button */
+#backToTop {
+  background-color: #A0522D; /* Consistent with other buttons */
+  color: #FDF6E3;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  position: relative; /* Fixes the button's position on the screen */
+  bottom: 20px; /* Distance from the bottom */
+  left: 50%; /* Centers horizontally relative to the viewport */
+  transform: translateX(-50%); /* Adjusts for the button's width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adds subtle shadow for visibility */
+  /*z-index: 1000; /* Ensures it stays above other elements */
+}
+
+#backToTop:hover {
+  background-color: #808F5A; /* Hover effect */
+  transform: translateX(-50%) scale(1.05); /* Slight hover scaling */
+}
+
   
-  h1, h2 {
-    color: #FDF6E3;
+  h1, h2, p {
+    color: #fff;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -89,4 +181,6 @@ body {
   .social-media a:hover {
     text-decoration: underline;
   }
+
+ 
   
