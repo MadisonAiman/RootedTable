@@ -26,6 +26,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Scroll to the top when the button is clicked
+backToTopButton.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Smooth scrolling effect
+  });
+  console.log("Button clicked - scrolling to top");
+});
+
+
   // Create a reusable function for smooth scrolling to the "Contact" section.
   const smoothScrollToContact = function () {
 
